@@ -207,7 +207,8 @@ public class DetailsActivity extends AppCompatActivity {
 
         // Quantity - 1 (only available if it's over 0)
         final Button btnSub = (Button) promptView.findViewById(R.id.quantityDialog_btnSub);
-        if (quantity.equalsIgnoreCase(VariableConstant.STRING_ZERO)) {
+        if (quantity.equalsIgnoreCase(VariableConstant.STRING_ZERO)
+                || quantity.trim().equalsIgnoreCase(VariableConstant.STRING_EMPTY)) {
             btnSub.setEnabled(false);
         } else {
             btnSub.setEnabled(true);
@@ -216,7 +217,8 @@ public class DetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 final String quantity = edtQuantityDialog.getText().toString();
-                if (quantity.equalsIgnoreCase(VariableConstant.STRING_ZERO)) {
+                if (quantity.equalsIgnoreCase(VariableConstant.STRING_ZERO)
+                        || quantity.trim().equalsIgnoreCase(VariableConstant.STRING_EMPTY)) {
                     btnSub.setEnabled(false);
                 } else if (quantity.equalsIgnoreCase(VariableConstant.STRING_ONE)) {
                     edtQuantityDialog.setText(String.valueOf(Integer.parseInt(quantity) - 1));
@@ -334,15 +336,27 @@ public class DetailsActivity extends AppCompatActivity {
      *
      * @param productModel ProductModel
      */
-    private void deleteFunction(ProductModel productModel) {
-        ProductDBHelper productDBHelper = new ProductDBHelper(getApplicationContext());
-        int result = productDBHelper.deleteProduct(productModel);
-        if (result > 0) {
-            Toast.makeText(DetailsActivity.this, getString(R.string.delete_successfully) + productModel.getmName(), Toast.LENGTH_SHORT).show();
-            finish();
-        } else {
-            Toast.makeText(DetailsActivity.this, getString(R.string.delete_error), Toast.LENGTH_SHORT).show();
-        }
+    private void deleteFunction(final ProductModel productModel) {
+        // Confirm before delete
+        new android.support.v7.app.AlertDialog.Builder(this)
+                .setTitle(R.string.dialog_delete_product_title)
+                .setMessage(R.string.dialog_delete_product_message)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Remove product
+                        final ProductDBHelper productDBHelper = new ProductDBHelper(getApplicationContext());
+                        int result = productDBHelper.deleteProduct(productModel);
+                        if (result > 0) {
+                            Toast.makeText(DetailsActivity.this, getString(R.string.delete_successfully) + productModel.getmName(), Toast.LENGTH_SHORT).show();
+                            finish();
+                        } else {
+                            Toast.makeText(DetailsActivity.this, getString(R.string.delete_error), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                })
+                .setNegativeButton(android.R.string.no, null)
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
     }
 
 

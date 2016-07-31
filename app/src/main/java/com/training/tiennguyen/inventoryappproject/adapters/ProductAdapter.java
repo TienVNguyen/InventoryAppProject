@@ -114,7 +114,8 @@ public class ProductAdapter extends ArrayAdapter<ProductModel> {
      */
     private void saleFunction(ProductHolder holder) {
         // Validate
-        if (holder.mTxtQuantity.getText().toString().equalsIgnoreCase(VariableConstant.STRING_ZERO)) {
+        if (holder.mTxtQuantity.getText().toString().equalsIgnoreCase(VariableConstant.STRING_ZERO)
+                || holder.mTxtQuantity.getText().toString().trim().equalsIgnoreCase(VariableConstant.STRING_EMPTY)) {
             holder.mBtnSale.setEnabled(false);
             Toast.makeText(getContext(), getContext().getString(R.string.dialog_edt_quality_zero), Toast.LENGTH_SHORT).show();
             return;

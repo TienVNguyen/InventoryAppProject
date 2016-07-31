@@ -10,10 +10,12 @@
     <string name="activity_main">一覧製品</string>
     <string name="activity_add">製品を追加</string>
     <string name="activity_details">詳細製品</string>
-    <string name="text_view_no_data">データなし</string>
+    <string name="text_view_no_data">データなし. 新製品を追加するには[+]アイコンを選択してください!</string>
     <string name="text_view_no_connection">接続なし</string>
     <string name="permission_necessary">必要なアクセス許可</string>
     <string name="permission_storage_necessary">外部記憶許可が必要です</string>
+    <string name="dialog_delete_product_title">製品を削除します</string>
+    <string name="dialog_delete_product_message">あなたはこの製品を削除しますか？</string>
     <string name="dialog_add_photo">写真を追加</string>
     <string name="dialog_take_photo">写真を撮る</string>
     <string name="dialog_choose_from_library">ライブラリから選択してください</string>

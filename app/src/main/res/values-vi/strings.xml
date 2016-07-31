@@ -10,10 +10,12 @@
     <string name="activity_main">Danh sách sản phẩm</string>
     <string name="activity_add">Thêm sản phẩm</string>
     <string name="activity_details">Chi tiết sản phẩm</string>
-    <string name="text_view_no_data">Không dữ liệu</string>
+    <string name="text_view_no_data">Không dữ liệu. Vui lòng chọn + để đăng ký sản phẩm!</string>
     <string name="text_view_no_connection">Không kết nối</string>
     <string name="permission_necessary">Cần sự cho phép</string>
     <string name="permission_storage_necessary">Cần sự cho phép ghi</string>
+    <string name="dialog_delete_product_title">Xóa sản phẩm</string>
+    <string name="dialog_delete_product_message">Bạn có chắc chắn sẽ xóa sản phẩm này?</string>
     <string name="dialog_add_photo">Thêm hình</string>
     <string name="dialog_take_photo">Chụp hình</string>
     <string name="dialog_choose_from_library">Chọn từ thư viện</string>
