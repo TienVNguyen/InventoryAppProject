@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">在庫アプリケーションプロジェクト</string>
+    <string name="activity_main">一覧製品</string>
+    <string name="activity_add">製品を追加</string>
+    <string name="activity_details">詳細製品</string>
+    <string name="text_view_no_data">データなし</string>
+    <string name="text_view_no_connection">接続なし</string>
+    <string name="permission_necessary">必要なアクセス許可</string>
+    <string name="permission_storage_necessary">外部記憶許可が必要です</string>
+    <string name="dialog_add_photo">写真を追加</string>
+    <string name="dialog_take_photo">写真を撮る</string>
+    <string name="dialog_choose_from_library">ライブラリから選択してください</string>
+    <string name="dialog_select_file">[ファイル]</string>
+    <string name="dialog_no_email_phone_client">何も電子メールや電話のクライアントが有効ではありません</string>
+    <string name="dialog_no_email_client">インストールされない電子メールクライアントはありません</string>
+    <string name="dialog_no_phone_client">インストールされてない電話のクライアントはありません</string>
+    <string name="dialog_no_connection_title">接続なし</string>
+    <string name="dialog_no_connection_message">設定経由でインターネットに接続してください</string>
+    <string name="dialog_edt_quality_zero">品質はすべてに販売されています！品質を更新以上をご注文下さい！</string>
+    <string name="action_settings">設定</string>
+    <string name="contend_description">説明を争います</string>
+    <string name="txt_status">状態</string>
+    <string name="txt_name">名</string>
+    <string name="txt_name_hint">製品\'sの名前</string>
+    <string name="txt_quantity">量</string>
+    <string name="txt_quantity_hint">0</string>
+    <string name="txt_price">価格</string>
+    <string name="txt_price_hint">0</string>
+    <string name="txt_description">説明</string>
+    <string name="txt_description_hint">製品説明</string>
+    <string name="txt_supplier_email">サプライヤーメール</string>
+    <string name="txt_supplier_email_hint">tien.workinfo@icloud.com</string>
+    <string name="txt_supplier_phone">サプライヤーの電話番号</string>
+    <string name="txt_supplier_phone_hint">+84 908881066</string>
+    <string name="txt_sale_number">販売数</string>
+    <string name="txt_sale_number_hint">0</string>
+    <string name="btn_browse">ブラウズ</string>
+    <string name="btn_sale">販売</string>
+    <string name="btn_add">加えます</string>
+    <string name="btn_quantity">品質</string>
+    <string name="btn_order">注文</string>
+    <string name="btn_delete">削除</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="btn_ok">[OK]</string>
+    <string name="btn_add_quantity">+</string>
+    <string name="btn_sub_quantity">-</string>
+    <string name="insert_successfully">インサート! </string>
+    <string name="update_successfully">更新! </string>
+    <string name="delete_successfully">削除します! </string>
+    <string name="insert_error">エラーINSERT ！無効な名前！</string>
+    <string name="update_error">ERROR UPDATE ！</string>
+    <string name="delete_error">ERROR DELETE ！</string>
+    <string name="edt_name_error_empty">名前が必要です</string>
+    <string name="edt_quantity_error_empty">品質が要求されます</string>
+    <string name="edt_quantity_error_zero">品質は0ではありません</string>
+    <string name="edt_price_error_empty">価格が要求されます</string>
+    <string name="edt_price_error_zero">価格は0ではありません</string>
+    <string name="edt_supplier_email_error_invalid">サプライヤー\'sの電子メールは有効ではありません</string>
+    <string name="edt_supplier_phone_error_invalid">サプライヤー\'sの電話が有効ではありません</string>
+</resources>

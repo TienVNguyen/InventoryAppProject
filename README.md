@@ -5,7 +5,8 @@ Time spent: 20 hours implementation (included searching) in total
  - 07/27: 4 hours
  - 07/28: 4 hours
  - 07/29: 4 hours
- - 07/30: 8 hours
+ - 07/30: 4 hours
+ - 07/31: 4 hours
  
 Implement link: https://github.com/TienVNguyen/InventoryAppProject
 

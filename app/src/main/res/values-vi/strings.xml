@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">Dự án hàng tồn kho</string>
+    <string name="activity_main">Danh sách sản phẩm</string>
+    <string name="activity_add">Thêm sản phẩm</string>
+    <string name="activity_details">Chi tiết sản phẩm</string>
+    <string name="text_view_no_data">Không dữ liệu</string>
+    <string name="text_view_no_connection">Không kết nối</string>
+    <string name="permission_necessary">Cần sự cho phép</string>
+    <string name="permission_storage_necessary">Cần sự cho phép ghi</string>
+    <string name="dialog_add_photo">Thêm hình</string>
+    <string name="dialog_take_photo">Chụp hình</string>
+    <string name="dialog_choose_from_library">Chọn từ thư viện</string>
+    <string name="dialog_select_file">Chọn</string>
+    <string name="dialog_no_email_phone_client">Không hỗ trợ email hay điện thoại.</string>
+    <string name="dialog_no_email_client">Không hỗ trợ email</string>
+    <string name="dialog_no_phone_client">Không hỗ trợ điện thoại</string>
+    <string name="dialog_no_connection_title">Không kết nối</string>
+    <string name="dialog_no_connection_message">Xin chỉnh bật kết nối internet</string>
+    <string name="dialog_edt_quality_zero">Hàng đã bán hết, vui lòng nhập thêm!</string>
+    <string name="action_settings">Điều chỉnh</string>
+    <string name="contend_description">Mô tả hình ảnh</string>
+    <string name="txt_status">Trạng thái</string>
+    <string name="txt_name">Tên</string>
+    <string name="txt_name_hint">Tên sản phẩm</string>
+    <string name="txt_quantity">Số lượng</string>
+    <string name="txt_quantity_hint">0</string>
+    <string name="txt_price">Giá cả</string>
+    <string name="txt_price_hint">0</string>
+    <string name="txt_description">Miêu tả</string>
+    <string name="txt_description_hint">Miêu tả sản phẩm</string>
+    <string name="txt_supplier_email">Email nhà cung cấp</string>
+    <string name="txt_supplier_email_hint">tien.workinfo@icloud.com</string>
+    <string name="txt_supplier_phone">Phone nhà cung cấp</string>
+    <string name="txt_supplier_phone_hint">+84 908881066</string>
+    <string name="txt_sale_number">Số lượng đã bán</string>
+    <string name="txt_sale_number_hint">0</string>
+    <string name="btn_browse">Truy vấn</string>
+    <string name="btn_sale">Bán</string>
+    <string name="btn_add">Thêm</string>
+    <string name="btn_quantity">Số lượng</string>
+    <string name="btn_order">Đặt</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_ok">Chấp nhận</string>
+    <string name="btn_add_quantity">+</string>
+    <string name="btn_sub_quantity">-</string>
+    <string name="insert_successfully">Thêm! </string>
+    <string name="update_successfully">Cập nhật! </string>
+    <string name="delete_successfully">Xóa! </string>
+    <string name="insert_error">Thêm thất bại! Trùng tên!</string>
+    <string name="update_error">Cập nhật thất bại!</string>
+    <string name="delete_error">Xóa thất bại!</string>
+    <string name="edt_name_error_empty">Tên cần điền</string>
+    <string name="edt_quantity_error_empty">Số lượng cần điền</string>
+    <string name="edt_quantity_error_zero">Số lượng lớn hơn 0</string>
+    <string name="edt_price_error_empty">Giá cần điền</string>
+    <string name="edt_price_error_zero">Giá lớn hơn 0</string>
+    <string name="edt_supplier_email_error_invalid">Email nhà cung cấp không hợp lệ</string>
+    <string name="edt_supplier_phone_error_invalid">Phone nhà cung cấp không hợp lệ</string>
+</resources>

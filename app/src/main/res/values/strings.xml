@@ -1,0 +1,67 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">Inventory App Project</string>
+    <string name="activity_main">List Products</string>
+    <string name="activity_add">Add Product</string>
+    <string name="activity_details">Detail Product</string>
+    <string name="text_view_no_data">No Data</string>
+    <string name="text_view_no_connection">No Connection</string>
+    <string name="permission_necessary">Permission necessary</string>
+    <string name="permission_storage_necessary">External storage permission is necessary</string>
+    <string name="dialog_add_photo">Add Photo</string>
+    <string name="dialog_take_photo">Take Photo</string>
+    <string name="dialog_choose_from_library">Choose from Library</string>
+    <string name="dialog_select_file">Select File</string>
+    <string name="dialog_no_email_phone_client">There are no email or phone clients valid.</string>
+    <string name="dialog_no_email_client">There are no email clients installed.</string>
+    <string name="dialog_no_phone_client">There are no phone clients installed.</string>
+    <string name="dialog_no_connection_title">No Connection</string>
+    <string name="dialog_no_connection_message">Please connect the internet through setting</string>
+    <string name="dialog_edt_quality_zero">Quality is sold all! Please update quality or order more!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contend_description">Contend Description</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_name_hint">Product\'s name</string>
+    <string name="txt_quantity">Quantity</string>
+    <string name="txt_quantity_hint">0</string>
+    <string name="txt_price">Price</string>
+    <string name="txt_price_hint">0</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_description_hint">Product Description</string>
+    <string name="txt_supplier_email">Supplier Email</string>
+    <string name="txt_supplier_email_hint">tien.workinfo@icloud.com</string>
+    <string name="txt_supplier_phone">Supplier Phone</string>
+    <string name="txt_supplier_phone_hint">+84 908881066</string>
+    <string name="txt_sale_number">Sale Number</string>
+    <string name="txt_sale_number_hint">0</string>
+    <string name="btn_browse">Browse</string>
+    <string name="btn_sale">Sale</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_quantity">Quantity</string>
+    <string name="btn_order">Order</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_add_quantity">+</string>
+    <string name="btn_sub_quantity">-</string>
+    <string name="insert_successfully">INSERT! </string>
+    <string name="update_successfully">UPDATE! </string>
+    <string name="delete_successfully">DELETE! </string>
+    <string name="insert_error">ERROR INSERT! Invalid name!</string>
+    <string name="update_error">ERROR UPDATE!</string>
+    <string name="delete_error">ERROR DELETE!</string>
+    <string name="edt_name_error_empty">Name is required</string>
+    <string name="edt_quantity_error_empty">Quality is required</string>
+    <string name="edt_quantity_error_zero">Quality is not 0</string>
+    <string name="edt_price_error_empty">Price is required</string>
+    <string name="edt_price_error_zero">Price is not 0</string>
+    <string name="edt_supplier_email_error_invalid">Supplier\'s email is not valid</string>
+    <string name="edt_supplier_phone_error_invalid">Supplier\'s phone is not valid</string>
+</resources>
